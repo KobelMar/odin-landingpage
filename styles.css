@@ -1,5 +1,5 @@
 * {
-    font-style: roboto;
+  font-style: roboto;
 }
 
 body {
@@ -32,54 +32,102 @@ li {
   list-style-type: none;
 }
 
-.header, .main-1 {
+.header,
+.main-1 {
   padding-left: 130px;
   padding-right: 130px;
 }
 
-
 .main {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-1 {
-    background-color: #1f2937;
-    display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    justify-content: space-between;
+  background-color: #1f2937;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+
+.main-2 {
+  padding-bottom: 50px;
+}
+
+.main-3 {
+    padding: 40px 350px;
+    background-color: lightgrey;
+
 }
 
 .main-1-left {
-    width: 300px;
-    text-align: left;
+  width: 300px;
+  text-align: left;
 }
 
 .image {
-    width: 500px;
-    height: 250px;
+  width: 500px;
+  height: 250px;
+}
+
+.card {
+  width: 150px;
+}
+
+#quote {
+    text-align: left;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+}
+
+#author {
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.card img {
+  width: 150px;
+  height: 160px;
 }
 
 h1 {
-    margin: 0;
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
+  margin: 0;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+h2 {
+  margin: 1.5em 0;
 }
 
 .main-1-left p {
-    font-size: 18px;
-    color: #e5e7eb;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .main-1-left button {
-    background-color: #3882f6;
-    color: white;
-    width: 10em;
-    height: 3em;
-    border-radius: 8px;
-    border: none;
+  background-color: #3882f6;
+  color: white;
+  width: 10em;
+  height: 3em;
+  border-radius: 8px;
+  border: none;
 }
 
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.card p {
+  text-align: left;
+}
+
+.card img {
+  border-radius: 4px;
+}
