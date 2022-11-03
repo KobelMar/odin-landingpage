@@ -14,6 +14,14 @@ body {
   align-items: center;
 }
 
+.footer {
+  height: 50px;
+  line-height: 50px;
+  background-color: #1f2937 ;
+  color: white;
+  text-align: center;
+}
+
 ul {
   display: flex;
   gap: 15px;
@@ -57,9 +65,8 @@ li {
 }
 
 .main-3 {
-    padding: 40px 350px;
-    background-color: lightgrey;
-
+  padding: 40px 350px;
+  background-color: lightgrey;
 }
 
 .main-1-left {
@@ -77,15 +84,15 @@ li {
 }
 
 #quote {
-    text-align: left;
-    font-size: larger;
-    margin: 0;
-    padding: 0;
+  text-align: left;
+  font-size: larger;
+  margin: 0;
+  padding: 0;
 }
 
 #author {
-    text-align: right;
-    margin-bottom: 0;
+  text-align: right;
+  margin-bottom: 0;
 }
 
 .card img {
@@ -130,4 +137,38 @@ h2 {
 
 .card img {
   border-radius: 4px;
+}
+
+.main-4 {
+  padding: 5em 10em;
+}
+
+.blue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: blue;
+  padding: 2em 6em;
+  gap: 3em;
+}
+
+.text-div {
+  text-align: left;
+}
+
+.text-div h3,
+.text-div p {
+  margin: 0;
+  color: white;
+}
+
+.blue button {
+  background-color: blue;
+  border: white;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  width: 10em;
+  height: 3em;
 }
